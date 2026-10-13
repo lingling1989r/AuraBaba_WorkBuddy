@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">AuraBaba</title>
+  <desc id="desc">An A-shaped mark surrounded by three collaboration nodes.</desc>
+  <defs>
+    <linearGradient id="aura" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="url(#aura)"/>
+  <path d="M18 46 29.4 18h5.2L46 46h-6.2l-2.1-5.9H26.3L24.2 46H18Zm10.2-11h7.6L32 24.2 28.2 35Z" fill="#fff"/>
+  <circle cx="13" cy="19" r="4" fill="#fff"/>
+  <circle cx="51" cy="19" r="4" fill="#fff"/>
+  <circle cx="52" cy="48" r="4" fill="#fff"/>
+  <path d="m16 21 9 6m23-6-9 6m10 18-8-5" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity=".75"/>
+</svg>

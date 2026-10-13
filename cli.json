@@ -1,0 +1,25 @@
+{
+  "init": {
+    "darwin": "curl -fsSL https://aurababa.com/scripts/install.sh | sh",
+    "linux": "curl -fsSL https://aurababa.com/scripts/install.sh | sh",
+    "win32": "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://aurababa.com/scripts/install.ps1 | iex"
+  },
+  "auth": {
+    "darwin": "aura login",
+    "linux": "aura login",
+    "win32": "aura.exe login"
+  },
+  "unAuth": {
+    "darwin": "aura auth logout",
+    "linux": "aura auth logout",
+    "win32": "aura.exe auth logout"
+  },
+  "status": {
+    "darwin": "aura auth status",
+    "linux": "aura auth status",
+    "win32": "aura.exe auth status"
+  },
+  "statusMatch": "Token:\\s+aura_",
+  "authWaitForExit": true,
+  "authUrlDomain": "aurababa.com"
+}

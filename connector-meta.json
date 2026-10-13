@@ -1,0 +1,22 @@
+{
+  "name": "AuraBaba Project Collaboration",
+  "name_zh": "灵光爸爸项目协作",
+  "name_en": "AuraBaba Project Collaboration",
+  "description": "Manage AuraBaba projects and multi-agent work from WorkBuddy.",
+  "description_zh": "在 WorkBuddy 中管理灵光爸爸的项目、任务和多 Agent 协作。",
+  "description_en": "Manage AuraBaba projects, issues, and multi-agent work from WorkBuddy.",
+  "source": "aurababa-project-collaboration",
+  "type": "cli",
+  "version": "1.0.0",
+  "examples_zh": [
+    "列出当前工作区还没有完成的任务",
+    "创建一个项目并把目标拆成多个子任务",
+    "把这个任务分配给空闲的 Agent，并在完成后更新进度"
+  ],
+  "examples_en": [
+    "List the unfinished tasks in my current workspace",
+    "Create a project and break the goal into child issues",
+    "Assign this issue to an available agent and update its progress"
+  ],
+  "minWorkbuddyVersion": "4.24.0"
+}
